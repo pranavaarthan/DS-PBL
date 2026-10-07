@@ -1,0 +1,46 @@
+{
+  "test_metrics": {
+    "accuracy": 0.6492,
+    "precision": 0.7574,
+    "recall": 0.6598,
+    "f1": 0.7052,
+    "roc_auc": 0.7124,
+    "confusion_matrix": [
+      [
+        140,
+        82
+      ],
+      [
+        132,
+        256
+      ]
+    ]
+  },
+  "cv_metrics": {
+    "accuracy": {
+      "mean": 0.656,
+      "std": 0.0302
+    },
+    "precision": {
+      "mean": 0.7697,
+      "std": 0.0283
+    },
+    "recall": {
+      "mean": 0.6548,
+      "std": 0.0286
+    },
+    "f1": {
+      "mean": 0.7075,
+      "std": 0.0265
+    },
+    "roc_auc": {
+      "mean": 0.7086,
+      "std": 0.0341
+    }
+  },
+  "model_path": "C:\\Users\\laksh\\.antigravity-ide\\DS PBL\\loan-eligibility-system\\models\\loan_logistic_regression.pkl",
+  "data_path": "C:\\Users\\laksh\\.antigravity-ide\\DS PBL\\loan-eligibility-system\\data\\Loan-Approval-Prediction.csv",
+  "train_size": 2439,
+  "test_size": 610,
+  "feature_count": 13
+}
